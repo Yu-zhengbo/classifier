@@ -19,7 +19,7 @@ from imblearn.metrics import geometric_mean_score
 from sklearn import metrics
 import warnings
 warnings.filterwarnings("ignore")
-file = r'D:\微信\WeChat Files\wxid_8f01i8xhk84722\FileStorage\File\2021-05\t-2.xlsx'
+file = r't-2.xlsx'
 
 data = pd.read_excel(file)
 X,Y = np.array(data.iloc[:,:-1]),np.array(data.iloc[:,-1])
